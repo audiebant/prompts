@@ -43,7 +43,7 @@ The design document should be based on the requirements document, so ensure it e
 - The model MUST create a '.claude/specs/{feature_name}/design.md' file if it doesn't already exist
 - The model MUST identify areas where research is needed based on the feature requirements
 - The model MUST conduct research and build up context in the conversation thread
-- The model SHOULD NOTcreate separate research files, but instead use the research as context for the design and implementation plan
+- The model SHOULD NOT create separate research files, but instead use the research as context for the design and implementation plan
 - The model MUST summarize key findings that will inform the feature design
 - The model SHOULD cite sources and include relevant links in the conversation
 - The model MUST create a detailed design document at'.claude/specs/{feature_name}/design.md'
